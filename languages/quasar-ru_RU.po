@@ -1,0 +1,665 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Quasar 1.0\n"
+"POT-Creation-Date: 2014-01-05 21:13+0200\n"
+"PO-Revision-Date: 2016-04-22 12:44+0300\n"
+"Last-Translator: XanderRock <xanderrock@yahoo.com>\n"
+"Language-Team: Rockthemes <xanderrock@yahoo.com>\n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e;_nx\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../404.php:26
+msgid "404 : PAGE NOT FOUND"
+msgstr "404 : СТРАНИЦА НЕ НАЙДЕНА"
+
+#: ../404.php:27
+msgid "Sorry, we couldn't find that page."
+msgstr "К сожалению, мы не смогли найти эту страницу."
+
+#: ../404.php:34
+msgid ""
+"The page you are looking for might have been removed, had its name changed, "
+"or is temporarily unavailable. <br/>Please try the following:"
+msgstr ""
+"Страница, которую Вы ищете, возможно, была удалена, изменила свое имя или "
+"временно недоступна. <br/>Пожалуйста, попробуйте следующее:"
+
+#: ../404.php:36
+msgid ""
+"Make sure that the Web site address displayed in the address bar of your "
+"browser is spelled and formatted correctly"
+msgstr ""
+"Убедитесь, что адрес веб-сайта, отображаемый в адресной строке браузера, "
+"написан и отформатирован корректно"
+
+#: ../404.php:37
+msgid ""
+"If you reached this page by clicking a link, contact us to alert us that the "
+"link is incorrectly formatted"
+msgstr ""
+"Если Вы попали на эту страницу по ссылке, свяжитесь с нами, чтобы известить, "
+"что ссылка сформирована неправильно"
+
+#: ../404.php:38
+msgid "Forget that this ever happened, and go to our "
+msgstr "Забудьте о том, что случилось, и перейдите на нашу "
+
+#: ../404.php:38
+msgid "home page"
+msgstr "домашнюю страницу"
+
+#: ../author-bio.php:16
+#, php-format
+msgid "About %s"
+msgstr "О %s"
+
+#: ../author-bio.php:20
+#, php-format
+msgid "View all posts by %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Показать все записи %s <span class=\"meta-nav\">&rarr;</span>"
+
+#: ../author.php:30
+#, php-format
+msgid "All posts by %s"
+msgstr "Все записи %s"
+
+#: ../comments.php:26
+#, php-format
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgstr "Один комментарий к &ldquo;%2$s&rdquo;"
+
+#: ../comments.php:42
+msgid "<i class=\"fa fa-angle-double-left\"></i> Older Comments"
+msgstr "<i class=\"fa fa-angle-double-left\"></i> Предыдущие комментарии"
+
+#: ../comments.php:43
+msgid "Newer Comments <i class=\"fa fa-angle-double-right\"></i>"
+msgstr "Свежие комментарии <i class=\"fa fa-angle-double-right\"></i>"
+
+#: ../comments.php:48
+msgid "Comments are closed."
+msgstr "Комментарии закрыты."
+
+#: ../content-aside.php:13 ../content-audio.php:22 ../content-gallery.php:22
+#: ../content-image.php:21 ../content-link.php:21 ../content-quote.php:13
+#: ../content-status.php:13 ../content-video.php:21
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Продолжить чтение <span class=\"meta-nav\">&rarr;</span>"
+
+#: ../content-aside.php:14 ../content-audio.php:23 ../content-chat.php:22
+#: ../content-link.php:22 ../content-quote.php:14 ../content-status.php:14
+#: ../content-video.php:22 ../image.php:73 ../page.php:56
+#: ../single-quasargallery.php:53 ../single-quasarproducts.php:53
+msgid "Pages:"
+msgstr "Страницы:"
+
+#: ../content-aside.php:20 ../content-aside.php:28 ../content-chat.php:26
+#: ../content-quote.php:25 ../content-status.php:19 ../content-video.php:31
+#: ../functions.php:1244 ../image.php:47
+msgid "Edit"
+msgstr "Изменить"
+
+#: ../content-gallery.php:34 ../content-image.php:28 ../content-quote.php:22
+#: ../content-video.php:28 ../content.php:31
+msgid "Leave a comment"
+msgstr "Оставьте комментарий"
+
+#: ../content-gallery.php:34 ../content-image.php:28 ../content-quote.php:22
+#: ../content-video.php:28 ../content.php:31
+msgid "One comment so far"
+msgstr "Один комментарий пока"
+
+#: ../content-gallery.php:34 ../content-image.php:28 ../content-quote.php:22
+#: ../content-video.php:28 ../content.php:31
+#, php-format
+msgid "View all %s comments"
+msgstr "Просмотреть все %s комментарии"
+
+#: ../content-none.php:12
+msgid "Nothing Found"
+msgstr "Ничего не найдено"
+
+#: ../content-none.php:18
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Готовы опубликовать первый пост? <a href=\"%1$s\">Начните здесь</a>."
+
+#: ../content-none.php:22
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with "
+"different keywords."
+msgstr ""
+"Извините, но ничего не соответствует условиям поиска. Пожалуйста, попробуйте "
+"снова с другими ключевыми словами."
+
+#: ../content-none.php:27
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr "Кажется, мы не можем найти то, что вы ищете. Возможно, поиск поможет."
+
+#: ../functions.php:53
+msgid "Navigation Menu"
+msgstr "Меню навигации"
+
+#: ../functions.php:420
+msgid "Quasar Product Categories"
+msgstr "Категории продуктов Quasar"
+
+#: ../functions.php:461
+msgid "Quasar Gallery Categories"
+msgstr "Категории галереи Quasar"
+
+#: ../functions.php:495
+msgid "Name :"
+msgstr "Имя :"
+
+#: ../functions.php:496
+msgid "Email :"
+msgstr "Email :"
+
+#: ../functions.php:497
+msgid "Website :"
+msgstr "Веб-сайт :"
+
+#: ../functions.php:500
+msgid "Leave a Comment"
+msgstr "Оставьте комментарий"
+
+#: ../functions.php:503
+msgid "Your Message :"
+msgstr "Ваше сообщение :"
+
+#: ../functions.php:684 ../functions.php:706 ../functions.php:719
+#: ../functions.php:1984
+msgid "Page"
+msgstr "Страница"
+
+#: ../functions.php:704
+msgid "Search Results for: "
+msgstr "Результат поиска для:"
+
+#: ../functions.php:712
+msgid "Not Found"
+msgstr "Не найдено"
+
+#: ../functions.php:862
+msgid "Sticky"
+msgstr "Клейкое"
+
+#: ../functions.php:872 ../functions.php:878 ../shortcodes.php:3816
+#: ../shortcodes.php:3825
+msgid ", "
+msgstr ", "
+
+#: ../functions.php:896
+#, php-format
+msgid "View all posts by %s"
+msgstr "Просмотреть все записи %s"
+
+#: ../functions.php:924
+#, php-format
+msgid "Permalink to %s"
+msgstr "Постоянная ссылка на %s"
+
+#: ../functions.php:967 ../functions.php:979 ../functions.php:1037
+#: ../functions.php:1067
+msgid "Previous"
+msgstr "Предыдущий"
+
+#: ../functions.php:968 ../functions.php:980 ../functions.php:1038
+#: ../functions.php:1068
+msgid "Next"
+msgstr "Следующий"
+
+#: ../functions.php:1418
+msgid "Read More <i class=\"fa-angle-double-right\"></i>"
+msgstr "Читать далее <i class=\"fa-angle-double-right\"></i>"
+
+#: ../functions.php:1477
+msgid "read more"
+msgstr "читать  далее"
+
+#: ../functions.php:1504 ../functions.php:1507
+msgid " View"
+msgstr " просмотров"
+
+#: ../functions.php:1822
+msgid "Home"
+msgstr "Главная"
+
+#: ../functions.php:1963
+msgid "Search Results For : "
+msgstr "Результаты поиска для : "
+
+#: ../functions.php:2129
+msgid "Search for:"
+msgstr "Искать:"
+
+#: ../functions.php:2130
+msgid "Search"
+msgstr "Поиск"
+
+#: ../image.php:24
+#, php-format
+msgid ""
+"<span class=\"attachment-meta\">Published on <time class=\"entry-date\" "
+"datetime=\"%1$s\">%2$s</time> in <a href=\"%3$s\" title=\"Return to %4$s\" "
+"rel=\"gallery\">%5$s</a></span>"
+msgstr ""
+"<span class=\"attachment-meta\">Опубликовано <time class=\"entry-date\" "
+"datetime=\"%1$s\">%2$s</time> в <a href=\"%3$s\" title=\"Return to %4$s\" "
+"rel=\"gallery\">%5$s</a></span>"
+
+#: ../image.php:42
+msgid "Full resolution"
+msgstr "Полное разрешение"
+
+#: ../image.php:54
+msgid "<span class=\"meta-nav\">&larr;</span> Previous"
+msgstr "<span class=\"meta-nav\">&larr;</span> Предыдущий"
+
+#: ../image.php:55
+msgid "Next <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Следующий <span class=\"meta-nav\">&rarr;</span>"
+
+#: ../search.php:33
+msgid "Nothing Matched"
+msgstr "Ничего не соответствует"
+
+#: ../shortcodes.php:133
+msgid "Latest"
+msgstr "Последнее"
+
+#: ../shortcodes.php:228 ../shortcodes.php:574 ../shortcodes.php:2192
+#: ../shortcodes.php:4343
+msgid "No data found!"
+msgstr "Не найдено данных!"
+
+#: ../shortcodes.php:262
+msgid "Loading..."
+msgstr "Загрузка..."
+
+#: ../shortcodes.php:270
+msgid "Loading Error. Try Again"
+msgstr "Ошибка загрузки. Попробуйте снова"
+
+#: ../shortcodes.php:2149 ../woocommerce-settings.php:993
+msgid "Details"
+msgstr "Детали"
+
+#: ../shortcodes.php:4007
+msgid "Load More"
+msgstr "Загрузить еще"
+
+#: ../taxonomy-quasargallery_cat.php:68 ../taxonomy-quasarproduct_cat.php:68
+#: ../title-default.php:33
+#, php-format
+msgid "Category Archives: %s"
+msgstr "Архив рубрик: %s"
+
+#: ../taxonomy-quasargallery_cat.php:70 ../taxonomy-quasarproduct_cat.php:70
+#: ../title-default.php:35
+#, php-format
+msgid "Tag Archives: %s"
+msgstr "Архив меток: %s"
+
+#: ../taxonomy-quasargallery_cat.php:74 ../taxonomy-quasarproduct_cat.php:74
+#: ../title-default.php:53
+#, php-format
+msgid ": %s"
+msgstr ": %s"
+
+#: ../taxonomy-quasargallery_cat.php:77 ../taxonomy-quasarproduct_cat.php:77
+#: ../title-default.php:58
+#, php-format
+msgid "Daily Archives: %s"
+msgstr "Ежедневные архивы: %s"
+
+#: ../taxonomy-quasargallery_cat.php:79 ../taxonomy-quasarproduct_cat.php:79
+#: ../title-default.php:60
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr "Месячные архивы: %s"
+
+#: ../taxonomy-quasargallery_cat.php:81 ../taxonomy-quasarproduct_cat.php:81
+#: ../title-default.php:62
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr "Годовые архивы: %s"
+
+#: ../taxonomy-quasargallery_cat.php:83 ../taxonomy-quasarproduct_cat.php:83
+#: ../title-default.php:75
+msgid "Archives"
+msgstr "Архивы"
+
+#: ../title-default.php:50
+msgid "Quasar Products :"
+msgstr "Продукты Quasar"
+
+#: ../title-default.php:79
+#, php-format
+msgid "Search Results For: %s"
+msgstr "Результаты поиска для: %s"
+
+#: ../title-default.php:94
+msgid "Portfolio"
+msgstr "Портфолио"
+
+#: ../title-default.php:103 ../title-default.php:109
+msgid "Blog"
+msgstr "Блог"
+
+#: ../woocommerce-settings.php:985
+msgid "Options"
+msgstr "Опции"
+
+#: ../woocommerce-settings.php:1008
+msgid "Add"
+msgstr "Добавить"
+
+#: ../libs/class-tgm-plugin-activation.php:155
+#: ../libs/plugin-activation.php:114
+msgid "Install Required Plugins"
+msgstr "Установите требуемый плагин"
+
+#: ../libs/class-tgm-plugin-activation.php:156
+#: ../libs/plugin-activation.php:115
+msgid "Install Plugins"
+msgstr "Установите плагины"
+
+#: ../libs/class-tgm-plugin-activation.php:157
+#: ../libs/plugin-activation.php:116
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr "Устанавливается плагин: %s"
+
+#: ../libs/class-tgm-plugin-activation.php:158
+msgid "Something went wrong."
+msgstr "Что-то пошло не так."
+
+#: ../libs/class-tgm-plugin-activation.php:169
+#: ../libs/plugin-activation.php:128
+msgid "Return to Required Plugins Installer"
+msgstr "Вернуться к установке требуемых плагинов"
+
+#: ../libs/class-tgm-plugin-activation.php:170
+msgid "Return to the dashboard"
+msgstr "Вернуться к консоли"
+
+#: ../libs/class-tgm-plugin-activation.php:171
+#: ../libs/class-tgm-plugin-activation.php:1840
+#: ../libs/plugin-activation.php:129
+msgid "Plugin activated successfully."
+msgstr "Плагин активирован успешно."
+
+#: ../libs/class-tgm-plugin-activation.php:172
+msgid "The following plugin was activated successfully:"
+msgstr "Следующий плагин был активирован успешно:"
+
+#: ../libs/class-tgm-plugin-activation.php:173
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "Все плагины установлены и активированы успешно. %1$s"
+
+#: ../libs/class-tgm-plugin-activation.php:174
+msgid "Dismiss this notice"
+msgstr "Убрать это сообщение"
+
+#: ../libs/class-tgm-plugin-activation.php:1085
+msgid "External Link"
+msgstr "Внешняя ссылка"
+
+#: ../libs/class-tgm-plugin-activation.php:1090
+msgid "Private Repository"
+msgstr "Частный репозиторий"
+
+#: ../libs/class-tgm-plugin-activation.php:1093
+msgid "Pre-Packaged"
+msgstr "Предварительно скомплектованный"
+
+#: ../libs/class-tgm-plugin-activation.php:1097
+msgid "WordPress Repository"
+msgstr "Репозиторий WordPress"
+
+#: ../libs/class-tgm-plugin-activation.php:1100
+msgid "Required"
+msgstr "Требуемый"
+
+#: ../libs/class-tgm-plugin-activation.php:1100
+msgid "Recommended"
+msgstr "Рекомендованный"
+
+#: ../libs/class-tgm-plugin-activation.php:1103
+msgid "Not Installed"
+msgstr "Не установлен"
+
+#: ../libs/class-tgm-plugin-activation.php:1105
+msgid "Installed But Not Activated"
+msgstr "Установлен, но не активирован"
+
+#: ../libs/class-tgm-plugin-activation.php:1275
+#, php-format
+msgid ""
+"No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the "
+"Dashboard\">Return to the Dashboard</a>"
+msgstr ""
+"Нет плагинов для установки или активации. <a href=\"%1$s\" title=\"Return to "
+"the Dashboard\">Вернуться к консоли</a>"
+
+#: ../libs/class-tgm-plugin-activation.php:1291
+msgid "Plugin"
+msgstr "Плагин"
+
+#: ../libs/class-tgm-plugin-activation.php:1292
+msgid "Source"
+msgstr "Источник"
+
+#: ../libs/class-tgm-plugin-activation.php:1293
+msgid "Type"
+msgstr "Тип"
+
+#: ../libs/class-tgm-plugin-activation.php:1294
+msgid "Status"
+msgstr "Статус"
+
+#: ../libs/class-tgm-plugin-activation.php:1312
+msgid "Install"
+msgstr "Установка"
+
+#: ../libs/class-tgm-plugin-activation.php:1313
+msgid "Activate"
+msgstr "Активировать"
+
+#: ../libs/class-tgm-plugin-activation.php:1823
+msgid "Install package not available."
+msgstr "Пакет установки недоступен."
+
+#: ../libs/class-tgm-plugin-activation.php:1824
+#, php-format
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr "Загрузка установочного пакета из <span class=\"code\">%s</span>&#8230;"
+
+#: ../libs/class-tgm-plugin-activation.php:1825
+msgid "Unpacking the package&#8230;"
+msgstr "Распаковка пакета&#8230;"
+
+#: ../libs/class-tgm-plugin-activation.php:1826
+msgid "Installing the plugin&#8230;"
+msgstr "Установка плагина&#8230;"
+
+#: ../libs/class-tgm-plugin-activation.php:1827
+msgid "Plugin install failed."
+msgstr "Установка плагина не удалась."
+
+#: ../libs/class-tgm-plugin-activation.php:1828
+msgid "Plugin installed successfully."
+msgstr "Плагин установлен успешно."
+
+#: ../libs/class-tgm-plugin-activation.php:1839
+msgid "Plugin activation failed."
+msgstr "Активация плагина не удалась."
+
+#: ../libs/class-tgm-plugin-activation.php:1949
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+"Процесс установки и активации запущен. Этот процесс может занять некоторое "
+"время на некоторых хостингах, пожалуйста, наберитесь терпения."
+
+#: ../libs/class-tgm-plugin-activation.php:1950
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr "%1$s установлен и активирован успешно."
+
+#: ../libs/class-tgm-plugin-activation.php:1950
+#: ../libs/class-tgm-plugin-activation.php:1959
+msgid "Show Details"
+msgstr "Показать детали"
+
+#: ../libs/class-tgm-plugin-activation.php:1950
+#: ../libs/class-tgm-plugin-activation.php:1959
+msgid "Hide Details"
+msgstr "Спрятать детали"
+
+#: ../libs/class-tgm-plugin-activation.php:1951
+msgid "All installations and activations have been completed."
+msgstr "Все установки и активации завершены."
+
+#: ../libs/class-tgm-plugin-activation.php:1952
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr "Установка и активация плагина %1$s (%2$d/%3$d)"
+
+#: ../libs/class-tgm-plugin-activation.php:1956
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+"Процесс установки запущен. Этот процесс может занять некоторое время на "
+"некоторых хостингах, пожалуйста, наберитесь терпения."
+
+#: ../libs/class-tgm-plugin-activation.php:1957
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr "Возникла ошибка во время установки %1$s: <strong>%2$s</strong>."
+
+#: ../libs/class-tgm-plugin-activation.php:1958
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr "Установка %1$s не удалась."
+
+#: ../libs/class-tgm-plugin-activation.php:1959
+#, php-format
+msgid "%1$s installed successfully."
+msgstr "%1$s установлен успешно."
+
+#: ../libs/class-tgm-plugin-activation.php:1960
+msgid "All installations have been completed."
+msgstr "Все установки завершены."
+
+#: ../libs/class-tgm-plugin-activation.php:1961
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr "Установка плагина %1$s (%2$d/%3$d)"
+
+#: ../libs/class-tgm-plugin-activation.php:2052
+msgid "Return to the Dashboard"
+msgstr "Вернуться к консоли"
+
+#: ../libs/plugin-activation.php:117
+msgid "Something went wrong with the plugin API."
+msgstr "Что-то пошло не так с API плагина."
+
+#: ../libs/plugin-activation.php:130
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr "Все плагины установлены и активированы успешно. %s"
+
+#: ../rock-builder/builder-functions.php:1231
+msgid "Your comment is awaiting moderation."
+msgstr "Ваш комментарий ожидает модерации."
+
+#: ../rock-builder/builder-functions.php:1239
+#, php-format
+msgid "<cite class=\"fn\">%s</cite>"
+msgstr "<cite class=\"fn\">%s</cite>"
+
+#: ../rock-builder/builder-functions.php:1244
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "%1$s из %2$s"
+
+#: ../rock-builder/builder-functions.php:1244
+msgid "(Edit)"
+msgstr "(Изменить)"
+
+#: ../rock-options/envato-wordpress-toolkit-library/class-envato-protected-api.php:67
+msgid "Please enter your Envato Marketplace Username."
+msgstr "Пожалуйста, введите ваше имя пользователя на Envato Marketplace."
+
+#: ../rock-options/envato-wordpress-toolkit-library/class-envato-protected-api.php:71
+msgid "Please enter your Envato Marketplace API Key."
+msgstr "Пожалуйста, введите ваш ключ API с Envato Marketplace."
+
+#: ../rock-options/envato-wordpress-toolkit-library/class-envato-protected-api.php:96
+msgid "The API \"set\" is a required parameter."
+msgstr "\"set\" - требуемый параметр API."
+
+#: ../rock-options/envato-wordpress-toolkit-library/class-envato-protected-api.php:167
+msgid "The Envato Marketplace \"item ID\" is a required parameter."
+msgstr "\"item ID\" - это требуемый параметр на Envato Marketplace."
+
+#: ../rock-options/envato-wordpress-toolkit-library/class-envato-wordpress-theme-upgrader.php:288
+msgid "Downloading upgrade package from the Envato API&#8230;"
+msgstr "Загрузка пакета обновления с Envato API&#8230;"
+
+#: ../rock-options/envato-wordpress-toolkit-library/class-envato-wordpress-theme-upgrader.php:299
+msgid "Downloading install package from the Envato API&#8230;"
+msgstr "Загрузка установочного пакета с Envato API&#8230;"
+
+#: ../rock-widgets/load_widgets.php:96
+msgid "Add New Sidebar"
+msgstr "Добавить новую боковую панель"
+
+#: ../rock-widgets/load_widgets.php:289 ../rock-widgets/load_widgets.php:291
+msgid "No Sidebar"
+msgstr "Без боковых панелей"
+
+#: ../rock-widgets/rockthemes_twitter_widget.php:14
+msgid "Rockthemes Twitter Widget"
+msgstr "Твиттер виджет Rockthemes"
+
+#: ../rock-widgets/rockthemes_twitter_widget.php:103
+msgid "New title"
+msgstr "Новый заголовок"
+
+#: ../rock-widgets/rockthemes_twitter_widget.php:130
+msgid "Title:"
+msgstr "Заголовок:"
+
+#: ../rock-widgets/rockthemes_twitter_widget.php:134
+msgid "Username:"
+msgstr "Имя пользователя:"
+
+#: ../rock-widgets/rockthemes_twitter_widget.php:138
+msgid "Twitter Widget ID:"
+msgstr "ID виджета твиттера:"
+
+#: ../rock-widgets/rockthemes_twitter_widget.php:142
+msgid "Total Tweets:"
+msgstr "Всего твитов:"
+
+#: ../rock-widgets/rockthemes_twitter_widget.php:147
+msgid " Check this for light version"
+msgstr " Проверьте это на наличие легкой версии"
