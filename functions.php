@@ -294,13 +294,13 @@ add_action( 'init', 'register_cpt_dealer' );
 /**
  * Shortcode to output content basing on current HTTP_HOST value
  *
- * @param array  $atts    Arguments.
- * @param string $content Content of the shortcode.
- * @param string $tag     Tag of the shortcode.
+ * @param array|string $atts    Arguments.
+ * @param string|null  $content Content of the shortcode.
+ * @param string       $tag     Tag of the shortcode.
  *
  * @return string
  */
-function domain_shortcode( array $atts, string $content, string $tag ) {
+function domain_shortcode( $atts, ?string $content, string $tag ) {
 	if ( $content ) {
 		$atts = shortcode_atts(
 			[ 'host' => '' ],
@@ -355,14 +355,13 @@ add_shortcode( 'domain', 'domain_shortcode' );
 /**
  * Output Google map
  *
- * @param array  $atts    Arguments.
- * @param string $content Content of the shortcode.
- * @param string $tag     Tag of the shortcode.
+ * @param array|string $atts    Arguments.
+ * @param string|null  $content Content of the shortcode.
+ * @param string       $tag     Tag of the shortcode.
  *
  * @return string HTML code of Google map
  */
-function map_shortcode( array $atts, string $content, $tag ) {
-
+function map_shortcode( $atts, ?string $content, string $tag ) {
 	if ( $content ) {
 		$content = do_shortcode( $content );
 		// Shortcode is called as [map][/map]
@@ -989,13 +988,13 @@ function compare_terms_by_id( object $a, object $b ) {
 /**
  * Get dealer data from post fields.
  *
- * @param array  $atts    Arguments.
- * @param string $content Content of the shortcode.
- * @param string $tag     Tag of the shortcode.
+ * @param array|string $atts    Arguments.
+ * @param string|null  $content Content of the shortcode.
+ * @param string       $tag     Tag of the shortcode.
  *
  * @return bool|mixed|string
  */
-function get_dealer_data( array $atts, string $content, string $tag ) {
+function get_dealer_data( $atts, ?string $content, string $tag ) {
 	global $post;
 
 	if ( isset( $post->original_id ) ) {
@@ -1078,11 +1077,11 @@ add_shortcode( 'dealer_type', 'get_dealer_data' );
 /**
  * Shortcode to output list of dealers.
  *
- * @param array $atts Shortcode attributes.
+ * @param array|string $atts Shortcode attributes.
  *
  * @return mixed
  */
-function dealer_list_shortcode( array $atts ) {
+function dealer_list_shortcode( $atts ) {
 	global $post;
 
 	$atts = shortcode_atts(
@@ -1146,11 +1145,11 @@ add_shortcode( 'dealer_list', 'dealer_list_shortcode' );
 /**
  * Shortcode to output list of dealers.
  *
- * @param array $atts Shortcode attributes.
+ * @param array|string $atts Shortcode attributes.
  *
  * @return mixed
  */
-function dealer_map_objects_shortcode( array $atts ) {
+function dealer_map_objects_shortcode( $atts ) {
 	global $post;
 
 	$atts = shortcode_atts(
