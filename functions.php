@@ -763,7 +763,7 @@ function map_shortcode( $atts, ?string $content, string $tag ) {
 		var Markers = [
 			<?php
 			foreach ( $objects as $object ) {
-				echo '[' . esc_html( $object ) . "],\n			";
+				echo '[' . $object . "],\n			";
 			}
 			?>
 		];
