@@ -1347,7 +1347,7 @@ function motorsport_resources_shortcode() {
 	</div>
 	<p></p>
 	<div data-configid="18492657/34591170" style="width:240px; height:255px;" class="issuuembed"></div>
-	<script type="text/javascript" src="//e.issuu.com/embed.js" async="true"></script>
+	<script type="text/javascript" src="//e.issuu.com/embed.js" async></script>
 	<div class="rockthemes-list">
 		<ul style="position: relative;">
 			<li><i class="fa fa-book" style="color:#1E73BE;"></i>
@@ -1427,7 +1427,7 @@ function car_resources_shortcode() {
 	</div>
 	<p></p>
 	<div data-configid="18492657/14463923" style="width:240px; height:255px;" class="issuuembed"></div>
-	<script type="text/javascript" src="//e.issuu.com/embed.js" async="true"></script>
+	<script type="text/javascript" src="//e.issuu.com/embed.js" async></script>
 	<div class="rockthemes-list">
 		<ul style="position: relative;">
 			<li><i class="fa fa-book" style="color:#1E73BE;"></i>
@@ -1511,7 +1511,7 @@ function commercial_resources_shortcode() {
 	</div>
 	<p></p>
 	<div data-configid="18492657/31683817" style="width:240px; height:319px;" class="issuuembed"></div>
-	<script type="text/javascript" src="//e.issuu.com/embed.js" async="true"></script>
+	<script type="text/javascript" src="//e.issuu.com/embed.js" async></script>
 	<div class="rockthemes-list">
 		<ul style="position: relative;">
 			<li><i class="fa fa-book" style="color:#1E73BE;"></i>
@@ -1581,7 +1581,7 @@ function industrial_resources_shortcode() {
 	</div>
 	<p></p>
 	<div data-configid="18492657/31656089" style="width:240px; height:339px;" class="issuuembed"></div>
-	<script type="text/javascript" src="//e.issuu.com/embed.js" async="true"></script>
+	<script type="text/javascript" src="//e.issuu.com/embed.js" async></script>
 	<div class="rockthemes-list">
 		<ul style="position: relative;">
 			<li><i class="fa fa-book" style="color:#1E73BE;"></i><a
@@ -1635,7 +1635,7 @@ function nanodrive_resources_shortcode() {
 	</div>
 	<p></p>
 	<div data-configid="18492657/31656089" style="width:240px; height:339px;" class="issuuembed"></div>
-	<script type="text/javascript" src="//e.issuu.com/embed.js" async="true"></script>
+	<script type="text/javascript" src="//e.issuu.com/embed.js" async></script>
 	<div class="rockthemes-list">
 		<ul style="position: relative;">
 			<li>
