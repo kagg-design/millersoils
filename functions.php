@@ -1353,7 +1353,7 @@ function motorsport_resources_shortcode() {
 			<li><i class="fa fa-book" style="color:#1E73BE;"></i>
 				<div>
 					<a
-							href="http://millersoils.test/wp-content/uploads/2015/07/%D0%91%D1%80%D0%BE%D1%88%D1%8E%D1%80%D0%B0-%D0%BC%D0%BE%D1%82%D0%BE%D1%80%D1%81%D0%BF%D0%BE%D1%80%D1%82.pdf"
+							href="/wp-content/uploads/2015/07/%D0%91%D1%80%D0%BE%D1%88%D1%8E%D1%80%D0%B0-%D0%BC%D0%BE%D1%82%D0%BE%D1%80%D1%81%D0%BF%D0%BE%D1%80%D1%82.pdf"
 							download="">Скачать брошюру</a></div>
 			</li>
 		</ul>
@@ -1392,7 +1392,7 @@ function car_resources_shortcode() {
 			<li>
 				<i class="fa fa-caret-right" style="color:#1E73BE;"></i>
 				<div>
-					<a href="http://millersoils.test/which-oil-guide/">Какое масло?</a>
+					<a href="/which-oil-guide/">Какое масло?</a>
 				</div>
 			</li>
 			<li>
@@ -1431,7 +1431,7 @@ function car_resources_shortcode() {
 	<div class="rockthemes-list">
 		<ul style="position: relative;">
 			<li><i class="fa fa-book" style="color:#1E73BE;"></i>
-				<div><a href="http://millersoils.test/wp-content/uploads/2015/07/Брошюра-автомобили.pdf" download="">Скачать
+				<div><a href="/wp-content/uploads/2015/07/Брошюра-автомобили.pdf" download="">Скачать
 						брошюру</a></div>
 			</li>
 		</ul>
@@ -1502,7 +1502,7 @@ function commercial_resources_shortcode() {
 				<i class="fa fa-book" style="color:#1E73BE;"></i>
 				<div>
 					<a
-							href="http://millersoils.test/wp-content/uploads/2015/12/Millers_Oils-Green-Transport.pdf"
+							href="/wp-content/uploads/2015/12/Millers_Oils-Green-Transport.pdf"
 							download="">Презентация - Biodiesel and Eclipse</a>
 				</div>
 			</li>
@@ -1515,7 +1515,7 @@ function commercial_resources_shortcode() {
 	<div class="rockthemes-list">
 		<ul style="position: relative;">
 			<li><i class="fa fa-book" style="color:#1E73BE;"></i>
-				<div><a href="http://millersoils.test/wp-content/uploads/2015/12/COMMERCIAL_BROCHURE.pdf" download="">Скачать
+				<div><a href="/wp-content/uploads/2015/12/COMMERCIAL_BROCHURE.pdf" download="">Скачать
 						брошюру</a></div>
 			</li>
 		</ul>
@@ -1585,7 +1585,7 @@ function industrial_resources_shortcode() {
 	<div class="rockthemes-list">
 		<ul style="position: relative;">
 			<li><i class="fa fa-book" style="color:#1E73BE;"></i><a
-						href="http://millersoils.test/wp-content/uploads/2015/11/Industrial-Brochure.pdf" download="">Скачать
+						href="/wp-content/uploads/2015/11/Industrial-Brochure.pdf" download="">Скачать
 					брошюру</a></li>
 		</ul>
 		<div class="clear"></div>
@@ -1640,7 +1640,7 @@ function nanodrive_resources_shortcode() {
 		<ul style="position: relative;">
 			<li>
 				<i class="fa fa-book" style="color:#1E73BE;"></i>
-				<a href="http://millersoils.test/wp-content/uploads/2015/11/Industrial-Brochure.pdf" download="">Скачать
+				<a href="/wp-content/uploads/2015/11/Industrial-Brochure.pdf" download="">Скачать
 					брошюру</a>
 			</li>
 		</ul>
@@ -1760,14 +1760,14 @@ function where_to_buy_shortcode() {
 		<tbody>
 		<tr>
 			<td style="padding: 0;">
-				<a title="Где купить" href="http://millersoils.test/dealers/">
+				<a title="Где купить" href="/dealers/">
 					<img
-							class="wp-image-281" src="http://millersoils.test/wp-content/uploads/2015/03/wheretobuy.jpg"
+							class="wp-image-281" src="/wp-content/uploads/2015/03/wheretobuy.jpg"
 							alt="wheretobuy" width="32" height="32"/>
 				</a>
 			</td>
 			<td style="padding: 0;">
-				<a title="Где купить" href="http://millersoils.test/dealers/">
+				<a title="Где купить" href="/dealers/">
 					<span
 							style="font-family: HelveticaRegular, Helvetica, Arial, sans-serif;">Найти ближайшего дилера
 					</span>
@@ -1790,13 +1790,13 @@ function which_oil_cars_shortcode() {
 	?>
 	<p id="blockheader"><strong>КАКОЕ МАСЛО</strong></p>
 	<p>
-		<a href="http://millersoils.test/which-oil-guide/">
+		<a href="/which-oil-guide/">
 			<img
 					class="fltright alignright"
-					src="http://millersoils.test/wp-content/uploads/2015/04/oil-bottle-icon.jpg"
+					src="/wp-content/uploads/2015/04/oil-bottle-icon.jpg"
 					alt="Oil bottle icon" width="64" height="65"/>
 		</a>
-		<a href="http://millersoils.test/which-oil-guide/">Найдите правильное масло</a> для вашего автомобиля или
+		<a href="/which-oil-guide/">Найдите правильное масло</a> для вашего автомобиля или
 		минивэна, включая самые новые модели.
 	</p>
 	<p></p>
@@ -1814,13 +1814,13 @@ function which_oil_commercial_shortcode() {
 	?>
 	<p id="blockheader"><strong>КАКОЕ МАСЛО</strong></p>
 	<p>
-		<a href="http://millersoils.test/which-oil-guide/">
+		<a href="/which-oil-guide/">
 			<img
 					class="size-full wp-image-627 alignright"
-					src="http://millersoils.test/wp-content/uploads/2015/04/oil-bottle-icon.jpg"
+					src="/wp-content/uploads/2015/04/oil-bottle-icon.jpg"
 					alt="oil-bottle-icon" width="64" height="65"/>
 		</a>
-		<a href="http://millersoils.test/which-oil-guide/">Найдите правильное масло</a> для ваших грузовиков,
+		<a href="/which-oil-guide/">Найдите правильное масло</a> для ваших грузовиков,
 		автобусов, сельскохозяйственной техники и внедорожников с помощью нашего удобного селектора продуктов.
 	</p>
 	<?php
