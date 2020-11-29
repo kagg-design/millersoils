@@ -331,11 +331,10 @@ function domain_shortcode( $atts, ?string $content, string $tag ) {
 	$content = $atts['content'];
 
 	if ( '' !== $atts['host'] ) {
-		$domain = isset( $_SERVER['HTTP_HOST'] ) ?
+		$host = isset( $_SERVER['HTTP_HOST'] ) ?
 			filter_var( wp_unslash( $_SERVER['HTTP_HOST'] ), FILTER_SANITIZE_STRING ) :
 			'';
-		$pos    = mb_strpos( $domain, $atts['host'] );
-		if ( false === $pos ) {
+		if ( false === mb_strpos( $host, $atts['host'] ) ) {
 			$content = '';
 		}
 	}
@@ -351,6 +350,34 @@ function domain_shortcode( $atts, ?string $content, string $tag ) {
 }
 
 add_shortcode( 'domain', 'domain_shortcode' );
+
+/**
+ * Filters domain shortcode and makes it work as .ru domain on .test site.
+ *
+ * Returning a non-false value from filter will short-circuit the
+ * shortcode generation process, returning that value instead.
+ *
+ * @param false|string $return      Short-circuit return value. Either false or the value to replace the shortcode with.
+ * @param string       $tag         Shortcode name.
+ * @param array|string $attr        Shortcode attributes array or empty string.
+ * @param array        $m           Regular expression match array.
+ *
+ * @return false|string
+ */
+function mo_pre_do_shortcode_tag( $return, $tag, $attr, $m ) {
+	$host = isset( $_SERVER['HTTP_HOST'] ) ?
+		filter_var( wp_unslash( $_SERVER['HTTP_HOST'] ), FILTER_SANITIZE_STRING ) :
+		'';
+	if ( 'domain' === $tag && false !== mb_strpos( $host, '.test' ) && '.ru' === $attr['host'] ) {
+		$attr['host'] = '.test';
+		$content      = isset( $m[5] ) ? $m[5] : null;
+		$return       = domain_shortcode( $attr, $content, $tag );
+	}
+
+	return $return;
+}
+
+add_filter( 'pre_do_shortcode_tag', 'mo_pre_do_shortcode_tag', 10, 4 );
 
 /**
  * Output Google map
