@@ -2078,6 +2078,9 @@ if ( ! class_exists( 'Term_Meta_Image' ) ) {
 	new Term_Meta_Image(); // Init.
 }
 
+// Fix deprecated jQuery functions.
+require_once 'fix-deprecated-jquery.php';
+
 /* Development section */
 
 /**
