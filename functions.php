@@ -5,7 +5,7 @@
  * @package millersoils
  */
 
-define( 'MO_THEME_VERSION', '2.0' );
+define( 'MO_THEME_VERSION', '2.1' );
 
 /**
  * Sets up the content width value based on the theme's design.
