@@ -357,10 +357,10 @@ add_shortcode( 'domain', 'domain_shortcode' );
  * Returning a non-false value from filter will short-circuit the
  * shortcode generation process, returning that value instead.
  *
- * @param false|string $return      Short-circuit return value. Either false or the value to replace the shortcode with.
- * @param string       $tag         Shortcode name.
- * @param array|string $attr        Shortcode attributes array or empty string.
- * @param array        $m           Regular expression match array.
+ * @param false|string $return Short-circuit return value. Either false or the value to replace the shortcode with.
+ * @param string       $tag    Shortcode name.
+ * @param array|string $attr   Shortcode attributes array or empty string.
+ * @param array        $m      Regular expression match array.
  *
  * @return false|string
  */
@@ -1291,6 +1291,543 @@ function dealers_shortcode() {
 }
 
 add_shortcode( 'dealers', 'dealers_shortcode' );
+
+/**
+ * Motorsport_Menu shortcode.
+ */
+function motorsport_menu_shortcode() {
+	ob_start();
+	?>
+	<p id="blockheader"><strong>АВТО</strong>СПОРТ</p>
+	<?php
+	the_widget( 'WP_Nav_Menu_Widget', [ 'nav_menu' => 'Motorsport_Menu' ] );
+
+	return ob_get_clean();
+}
+
+add_shortcode( 'Motorsport_Menu', 'motorsport_menu_shortcode' );
+
+/**
+ * Motorsport_Resources shortcode.
+ */
+function motorsport_resources_shortcode() {
+	ob_start();
+	?>
+	<p id="blockheader"><strong>РЕСУРСЫ</strong></p>
+	<div class="rockthemes-list">
+		<ul style="position: relative;">
+			<li>
+				<i class="fa fa-caret-right" style="color:#1E73BE;"></i>
+				<div>
+					<a href="http://www.millersoils.co.uk/automotive/motorsport-references.asp" target="_blank">Рекомендации
+						из мира автоспорта</a>
+				</div>
+			</li>
+			<li><i class="fa fa-caret-right" style="color:#1E73BE;"></i>
+				<div>
+					<a href="http://www.millersoils.co.uk/automotive/useful-oil-facts.asp" target="_blank">Общая
+						информация - FAQ</a>
+				</div>
+			</li>
+			<li>
+				<i class="fa fa-caret-right" style="color:#1E73BE;"></i>
+				<div>
+					<a href="http://www.millersoils.co.uk/corporate/technical-helpdesk.asp" target="_blank">Техническая
+						поддержка</a>
+				</div>
+			</li>
+			<li>
+				<i class="fa fa-caret-right" style="color:#1E73BE;"></i>
+				<div>
+					<a href="http://www.millersoils.co.uk/glossary.asp" target="_blank">Глоссарий по маслу</a>
+				</div>
+			</li>
+		</ul>
+		<div class="clear"></div>
+	</div>
+	<p></p>
+	<div data-configid="18492657/34591170" style="width:240px; height:255px;" class="issuuembed"></div>
+	<script type="text/javascript" src="//e.issuu.com/embed.js" async="true"></script>
+	<div class="rockthemes-list">
+		<ul style="position: relative;">
+			<li><i class="fa fa-book" style="color:#1E73BE;"></i>
+				<div>
+					<a
+							href="http://millersoils.test/wp-content/uploads/2015/07/%D0%91%D1%80%D0%BE%D1%88%D1%8E%D1%80%D0%B0-%D0%BC%D0%BE%D1%82%D0%BE%D1%80%D1%81%D0%BF%D0%BE%D1%80%D1%82.pdf"
+							download="">Скачать брошюру</a></div>
+			</li>
+		</ul>
+		<div class="clear"></div>
+	</div>
+	<?php
+	return ob_get_clean();
+}
+
+add_shortcode( 'Motorsport_Resources', 'motorsport_resources_shortcode' );
+
+/**
+ * Car_Menu shortcode.
+ */
+function car_menu_shortcode() {
+	?>
+	<p id="blockheader"><strong>ДОРОЖНЫЕ</strong></p>
+	<?php
+	ob_start();
+	the_widget( 'WP_Nav_Menu_Widget', [ 'nav_menu' => 'Automotive_Menu' ] );
+
+	return ob_get_clean();
+}
+
+add_shortcode( 'Car_Menu', 'car_menu_shortcode' );
+
+/**
+ * Car_Resources shortcode.
+ */
+function car_resources_shortcode() {
+	ob_start();
+	?>
+	<p id="blockheader"><strong>РЕСУРСЫ</strong></p>
+	<div class="rockthemes-list">
+		<ul style="position: relative;">
+			<li>
+				<i class="fa fa-caret-right" style="color:#1E73BE;"></i>
+				<div>
+					<a href="http://millersoils.test/which-oil-guide/">Какое масло?</a>
+				</div>
+			</li>
+			<li>
+				<i class="fa fa-caret-right" style="color:#1E73BE;"></i>
+				<div>
+					<a href="http://www.millersoils.co.uk/automotive/useful-oil-facts.asp" target="_blank">Полезная
+						информация</a>
+				</div>
+			</li>
+			<li>
+				<i class="fa fa-caret-right" style="color:#1E73BE;"></i>
+				<div>
+					<a href="http://www.millersoils.co.uk/automotive/automotive-faq.asp" target="_blank">Частые
+						вопросы</a>
+				</div>
+			</li>
+			<li>
+				<i class="fa fa-caret-right" style="color:#1E73BE;"></i>
+				<div>
+					<a href="http://www.millersoils.co.uk/corporate/technical-helpdesk.asp" target="_blank">Техническая
+						поддержка</a>
+				</div>
+			</li>
+			<li>
+				<i class="fa fa-caret-right" style="color:#1E73BE;"></i>
+				<div>
+					<a href="http://www.millersoils.co.uk/glossary.asp" target="_blank">Глоссарий по маслу</a>
+				</div>
+			</li>
+		</ul>
+		<div class="clear"></div>
+	</div>
+	<p></p>
+	<div data-configid="18492657/14463923" style="width:240px; height:255px;" class="issuuembed"></div>
+	<script type="text/javascript" src="//e.issuu.com/embed.js" async="true"></script>
+	<div class="rockthemes-list">
+		<ul style="position: relative;">
+			<li><i class="fa fa-book" style="color:#1E73BE;"></i>
+				<div><a href="http://millersoils.test/wp-content/uploads/2015/07/Брошюра-автомобили.pdf" download="">Скачать
+						брошюру</a></div>
+			</li>
+		</ul>
+		<div class="clear"></div>
+	</div>
+	<?php
+	return ob_get_clean();
+}
+
+add_shortcode( 'Car_Resources', 'car_resources_shortcode' );
+
+/**
+ * Commercial_Menu shortcode.
+ */
+function commercial_menu_shortcode() {
+	ob_start();
+	?>
+	<p id="blockheader"><strong>КОММЕРЧЕСКИЕ</strong> АВТОМОБИЛИ</p>
+	<?php
+	the_widget( 'WP_Nav_Menu_Widget', [ 'nav_menu' => 'Commercial_Menu' ] );
+
+	return ob_get_clean();
+}
+
+add_shortcode( 'Commercial_Menu', 'commercial_menu_shortcode' );
+
+/**
+ * Commercial_Resources shortcode.
+ */
+function commercial_resources_shortcode() {
+	ob_start();
+	?>
+	<p id="blockheader"><strong>РЕСУРСЫ</strong></p>
+	<div class="rockthemes-list">
+		<ul style="position: relative;">
+			<li>
+				<i class="fa fa-caret-right" style="color:#1E73BE;"></i>
+				<div>
+					<a href="http://www.millersoils.co.uk/product-list.asp" target="_blank">A-Z перечень продуктов</a>
+				</div>
+			</li>
+			<li>
+				<i class="fa fa-caret-right" style="color:#1E73BE;"></i>
+				<div>
+					<a href="http://www.millersoils.co.uk/automotive/millercare.asp" target="_blank">Анализ масла
+						Millercare</a>
+				</div>
+			</li>
+			<li>
+				<i class="fa fa-caret-right" style="color:#1E73BE;"></i>
+				<div>
+					<a href="http://www.millersoils.co.uk/commercial/oil-fuel-analysis.asp" target="_blank">Пробы масла
+						и топлива</a>
+				</div>
+			</li>
+			<li>
+				<i class="fa fa-caret-right" style="color:#1E73BE;"></i>
+				<div>
+					<a href="http://www.millersoils.co.uk/corporate/technical-helpdesk.asp" target="_blank">Техническая
+						поддержка</a>
+				</div>
+			</li>
+			<li>
+				<i class="fa fa-caret-right" style="color:#1E73BE;"></i>
+				<div><a href="http://www.millersoils.co.uk/glossary.asp" target="_blank">Глоссарий по маслу</a></div>
+			</li>
+			<li>
+				<i class="fa fa-book" style="color:#1E73BE;"></i>
+				<div>
+					<a
+							href="http://millersoils.test/wp-content/uploads/2015/12/Millers_Oils-Green-Transport.pdf"
+							download="">Презентация - Biodiesel and Eclipse</a>
+				</div>
+			</li>
+		</ul>
+		<div class="clear"></div>
+	</div>
+	<p></p>
+	<div data-configid="18492657/31683817" style="width:240px; height:319px;" class="issuuembed"></div>
+	<script type="text/javascript" src="//e.issuu.com/embed.js" async="true"></script>
+	<div class="rockthemes-list">
+		<ul style="position: relative;">
+			<li><i class="fa fa-book" style="color:#1E73BE;"></i>
+				<div><a href="http://millersoils.test/wp-content/uploads/2015/12/COMMERCIAL_BROCHURE.pdf" download="">Скачать
+						брошюру</a></div>
+			</li>
+		</ul>
+		<div class="clear"></div>
+	</div>
+	<?php
+	return ob_get_clean();
+}
+
+add_shortcode( 'Commercial_Resources', 'commercial_resources_shortcode' );
+
+/**
+ * Industrial_Menu shortcode.
+ */
+function industrial_menu_shortcode() {
+	ob_start();
+	?>
+	<p id="blockheader"><strong>ИНДУСТРИЯ</strong></p>
+	<?php
+	the_widget( 'WP_Nav_Menu_Widget', [ 'nav_menu' => 'Industrial_Menu' ] );
+
+	return ob_get_clean();
+}
+
+add_shortcode( 'Industrial_Menu', 'industrial_menu_shortcode' );
+
+/**
+ * Industrial_Resources shortcode.
+ */
+function industrial_resources_shortcode() {
+	ob_start();
+	?>
+	<p id="blockheader"><strong>РЕСУРСЫ</strong></p>
+	<div class="rockthemes-list">
+		<ul style="position: relative;">
+			<li>
+				<i class="fa fa-caret-right" style="color:#1E73BE;"></i>
+				<div>
+					<a href="http://www.millersoils.co.uk/product-list.asp" target="_blank">A-Z перечень продуктов</a>
+				</div>
+			</li>
+			<li>
+				<i class="fa fa-caret-right" style="color:#1E73BE;"></i>
+				<div>
+					<a href="http://www.millersoils.co.uk/automotive/millercare.asp" target="_blank">Анализ масла
+						Millercare</a></div>
+			</li>
+			<li>
+				<i class="fa fa-caret-right" style="color:#1E73BE;"></i>
+				<div>
+					<a href="http://www.millersoils.co.uk/glossary.asp" target="_blank">Глоссарий</a>
+				</div>
+			</li>
+			<li>
+				<i class="fa fa-caret-right" style="color:#1E73BE;"></i>
+				<div>
+					<a href="http://www.millersoils.co.uk/corporate/technical-helpdesk.asp" target="_blank">Техническая
+						поддержка</a>
+				</div>
+			</li>
+		</ul>
+		<div class="clear"></div>
+	</div>
+	<p></p>
+	<div data-configid="18492657/31656089" style="width:240px; height:339px;" class="issuuembed"></div>
+	<script type="text/javascript" src="//e.issuu.com/embed.js" async="true"></script>
+	<div class="rockthemes-list">
+		<ul style="position: relative;">
+			<li><i class="fa fa-book" style="color:#1E73BE;"></i><a
+						href="http://millersoils.test/wp-content/uploads/2015/11/Industrial-Brochure.pdf" download="">Скачать
+					брошюру</a></li>
+		</ul>
+		<div class="clear"></div>
+	</div>
+	<?php
+	return ob_get_clean();
+}
+
+add_shortcode( 'Industrial_Resources', 'industrial_resources_shortcode' );
+
+/**
+ * Nanodrive_Resources shortcode.
+ */
+function nanodrive_resources_shortcode() {
+	ob_start();
+	?>
+	<p id="blockheader"><strong>РЕСУРСЫ</strong></p>
+	<div class="rockthemes-list">
+		<ul style="position: relative;">
+			<li>
+				<i class="fa fa-caret-right" style="color:#1E73BE;"></i>
+				<div>
+					<a href="http://www.millersoils.co.uk/product-list.asp" target="_blank">A-Z перечень продуктов</a>
+				</div>
+			</li>
+			<li>
+				<i class="fa fa-caret-right" style="color:#1E73BE;"></i>
+				<div>
+					<a href="http://www.millersoils.co.uk/automotive/millercare.asp" target="_blank">Анализ масла
+						Millercare</a></div>
+			</li>
+			<li>
+				<i class="fa fa-caret-right" style="color:#1E73BE;"></i>
+				<div>
+					<a href="http://www.millersoils.co.uk/glossary.asp" target="_blank">Глоссарий</a>
+				</div>
+			</li>
+			<li>
+				<i class="fa fa-caret-right" style="color:#1E73BE;"></i>
+				<div>
+					<a href="http://www.millersoils.co.uk/corporate/technical-helpdesk.asp" target="_blank">Техническая
+						поддержка</a>
+				</div>
+			</li>
+		</ul>
+		<div class="clear"></div>
+	</div>
+	<p></p>
+	<div data-configid="18492657/31656089" style="width:240px; height:339px;" class="issuuembed"></div>
+	<script type="text/javascript" src="//e.issuu.com/embed.js" async="true"></script>
+	<div class="rockthemes-list">
+		<ul style="position: relative;">
+			<li>
+				<i class="fa fa-book" style="color:#1E73BE;"></i>
+				<a href="http://millersoils.test/wp-content/uploads/2015/11/Industrial-Brochure.pdf" download="">Скачать
+					брошюру</a>
+			</li>
+		</ul>
+		<div class="clear"></div>
+	</div>
+	<?php
+	return ob_get_clean();
+}
+
+add_shortcode( 'Nanodrive_Resources', 'nanodrive_resources_shortcode' );
+
+/**
+ * Races shortcode.
+ */
+function races_shortcode() {
+	ob_start();
+	?>
+	<p id="blockheader"><strong>ГОНЩИКИ И СЕРИИ</strong></p>
+	<div class="rockthemes-list">
+		<ul style="position: relative;">
+			<li>
+				<i class="fa fa-caret-right" style="color:#1E73BE;"></i>
+				<div>
+					<a href="http://www.millersoils.co.uk/automotive/Martin-Prokop.asp">WRC Martin Prokop</a>
+				</div>
+			</li>
+			<li>
+				<i class="fa fa-caret-right" style="color:#1E73BE;"></i>
+				<div>
+					<a href="http://www.millersoils.co.uk/automotive/Derek-Tohill-Rallycross.asp">World Rallycross
+						Derek Tohill</a>
+				</div>
+			</li>
+			<li>
+				<i class="fa fa-caret-right" style="color:#1E73BE;"></i>
+				<div>
+					<a href="http://www.millersoils.co.uk/automotive/Intermoto-Ponyexpres.asp">Super Sport -Intermoto
+						Ponyexpres</a>
+				</div>
+			</li>
+			<li>
+				<i class="fa fa-caret-right" style="color:#1E73BE;"></i>
+				<div>
+					<a href="http://www.millersoils.co.uk/automotive/Caterham.asp">Caterham Championship</a>
+				</div>
+			</li>
+			<li>
+				<i class="fa fa-caret-right" style="color:#1E73BE;"></i>
+				<div>
+					<a href="http://www.millersoils.co.uk/automotive/Civic-Cup.asp">Civic Cup</a>
+				</div>
+			</li>
+			<li>
+				<i class="fa fa-caret-right" style="color:#1E73BE;"></i>
+				<div>
+					<a href="http://www.millersoils.co.uk/automotive/MR2-championship.asp">MR2 Championship</a>
+				</div>
+			</li>
+			<li>
+				<i class="fa fa-caret-right" style="color:#1E73BE;"></i>
+				<div>
+					<a href="http://www.millersoils.co.uk/automotive/Acorn-Infinity-Motorsport.asp">Acorn
+						Motorsport</a>
+				</div>
+			</li>
+			<li>
+				<i class="fa fa-caret-right" style="color:#1E73BE;"></i>
+				<div>
+					<a href="http://www.millersoils.co.uk/automotive/Team-Oliver.asp">BTRA Team Oliver</a>
+				</div>
+			</li>
+			<li>
+				<i class="fa fa-caret-right" style="color:#1E73BE;"></i>
+				<div>
+					<a href="http://www.millersoils.co.uk/automotive/time-attack.asp">Time Attack</a>
+				</div>
+			</li>
+			<li>
+				<i class="fa fa-caret-right" style="color:#1E73BE;"></i>
+				<div>
+					<a href="http://www.millersoils.co.uk/automotive/Boss-Motorsport.asp">Boss Motorsport</a>
+				</div>
+			</li>
+		</ul>
+		<div class="clear"></div>
+	</div>
+	<p></p>
+	<?php
+	return ob_get_clean();
+}
+
+add_shortcode( 'Races', 'races_shortcode' );
+
+/**
+ * ProdSelector shortcode.
+ */
+function prod_selector_shortcode() {
+	ob_start();
+	?>
+	<p id="blockheader"><strong>СЕЛЕКТОР</strong> ПРОДУКТОВ</p>
+	<?php
+	the_widget( 'WP_Nav_Menu_Widget', [ 'nav_menu' => 'Product_Selector' ] );
+
+	return ob_get_clean();
+}
+
+add_shortcode( 'ProdSelector', 'prod_selector_shortcode' );
+
+/**
+ * WhereToBuy shortcode.
+ */
+function where_to_buy_shortcode() {
+	ob_start();
+	?>
+	<p id="blockheader"><strong>ГДЕ</strong> КУПИТЬ</p>
+	<table style="border: 0; width: 100%;">
+		<tbody>
+		<tr>
+			<td style="padding: 0;">
+				<a title="Где купить" href="http://millersoils.test/dealers/">
+					<img
+							class="wp-image-281" src="http://millersoils.test/wp-content/uploads/2015/03/wheretobuy.jpg"
+							alt="wheretobuy" width="32" height="32"/>
+				</a>
+			</td>
+			<td style="padding: 0;">
+				<a title="Где купить" href="http://millersoils.test/dealers/">
+					<span
+							style="font-family: HelveticaRegular, Helvetica, Arial, sans-serif;">Найти ближайшего дилера
+					</span>
+				</a>
+			</td>
+		</tr>
+		</tbody>
+	</table>
+	<?php
+	return ob_get_clean();
+}
+
+add_shortcode( 'WhereToBuy', 'where_to_buy_shortcode' );
+
+/**
+ * WhichOilCars shortcode.
+ */
+function which_oil_cars_shortcode() {
+	ob_start();
+	?>
+	<p id="blockheader"><strong>КАКОЕ МАСЛО</strong></p>
+	<p>
+		<a href="http://millersoils.test/which-oil-guide/">
+			<img
+					class="fltright alignright"
+					src="http://millersoils.test/wp-content/uploads/2015/04/oil-bottle-icon.jpg"
+					alt="Oil bottle icon" width="64" height="65"/>
+		</a>
+		<a href="http://millersoils.test/which-oil-guide/">Найдите правильное масло</a> для вашего автомобиля или
+		минивэна, включая самые новые модели.
+	</p>
+	<p></p>
+	<?php
+	return ob_get_clean();
+}
+
+add_shortcode( 'WhichOilCars', 'which_oil_cars_shortcode' );
+
+/**
+ * WhichOilCommercial shortcode.
+ */
+function which_oil_commercial_shortcode() {
+	ob_start();
+	?>
+	<p id="blockheader"><strong>КАКОЕ МАСЛО</strong></p>
+	<p>
+		<a href="http://millersoils.test/which-oil-guide/">
+			<img
+					class="size-full wp-image-627 alignright"
+					src="http://millersoils.test/wp-content/uploads/2015/04/oil-bottle-icon.jpg"
+					alt="oil-bottle-icon" width="64" height="65"/>
+		</a>
+		<a href="http://millersoils.test/which-oil-guide/">Найдите правильное масло</a> для ваших грузовиков,
+		автобусов, сельскохозяйственной техники и внедорожников с помощью нашего удобного селектора продуктов.
+	</p>
+	<?php
+	return ob_get_clean();
+}
+
+add_shortcode( 'WhichOilCommercial', 'which_oil_commercial_shortcode' );
 
 /**
  * Добавляет возможность загружать изображения для элементов указанных таксономий - категории, метки.
